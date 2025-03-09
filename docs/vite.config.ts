@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import tailwindcss from '@tailwindcss/vite'
 
   export default defineConfig({
-    base: "twitter-ui",
+    base: "https://github.com/codewith-hardik/twitter-ui.git",
   });
 
 
