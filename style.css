@@ -1,0 +1,129 @@
+
+@import "tailwindcss";
+
+.first{
+    /* width: 20%; */
+    height: 100vh;
+   overflow: hidden;
+}
+.second{
+    /* width: 50%; */
+    height: 100vh;
+    overflow-y:scroll;
+    border-color: rgb(35, 36, 37);
+}
+.therd{
+    width: 30%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+
+.post-box{
+    border-color:rgb(35, 36, 37) ;
+
+}
+.post-box:hover{
+ background-color: rgba(29, 30, 32, 0.441);
+}
+.post-t1:hover{
+    background-color: rgba(12, 12, 12, 0.431);
+}
+
+.every_can_reply:hover{
+    background-color: #12364e79;
+    
+}
+#post{
+    background-color: #787a7a;
+}
+.happ-svgs:hover{
+    background-color: #12364e79;
+}
+
+hr{
+   color: rgb(56, 58, 60);
+}
+.logo:hover{
+    background-color:rgba(34, 34, 34, 0.711);
+}
+.porfile-info:hover{
+    background-color: rgba(34, 34, 34, 0.711);
+}
+.show-posts:hover{
+    background-color: rgba(41, 41, 41, 0.381);
+}
+.show-posts{
+    color: #1885ce;
+}
+.more:hover{
+    background-color: #022f4cc0;
+}
+.subscride-bg-color{
+    background-color: #1d9bf0;
+}
+.fou_you:hover{
+ background-color: rgba(28, 28, 28, 0.518);
+}
+.following:hover{
+    background-color: rgba(54, 53, 53, 0.518);
+   }
+.post-btn{
+    background-color: #eff3f4;
+}
+.text-color-light{
+ color: #71767b;
+}
+
+
+.creater-info{
+    display: flex;
+    justify-content: space-between;
+}
+#post-info{
+    color: #a9aaab;
+}
+#post-svgs>div:nth-child(1):hover{
+    background-color: rgba(18, 49, 162, 0.508);
+}
+#post-svgs>div:nth-child(2):hover{
+    background-color: #00ba7c70;
+}
+#post-svgs>div:nth-child(3):hover{
+    background-color: #ae052f70;
+}
+#post-svgs>div:nth-child(4):hover{
+    background-color: #8d7b0590;
+}
+#post-svgs>div:nth-child(5):hover{
+    background-color: #06968d94;
+}
+
+.bd-color{
+    border-color: #474747b3;
+}
+
+.box-1:hover{
+    background-color: rgba(41, 41, 41, 0.376);
+}
+.follow-btn-bg{
+    background-color: #eff3f4;
+}
+
+
+.scroll-container {
+    scrollbar-width: thin; 
+    scrollbar-color: #505050 #050505; 
+}
+.footer-item>li:hover{
+    text-decoration: underline;
+}
+.header{
+    /* position: fixed; */
+   
+    width: 100%;
+    opacity: 0.9;
+    z-index: 10;
+    background-color: #000000;
+    
+}
